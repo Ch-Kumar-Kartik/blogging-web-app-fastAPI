@@ -1,11 +1,12 @@
 from __future__ import annotations
+
 from datetime import UTC, datetime
-from typing import Text
 
 from sqlalchemy import DateTime, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from database import Base
+
 
 class User(Base):
     __tablename__ = "users"
@@ -19,7 +20,10 @@ class User(Base):
         default=None,
     )
 
-    posts: Mapped[list[Post]] = relationship(back_populates="author")
+    posts: Mapped[list[Post]] = relationship(
+        back_populates="author",
+        cascade="all, delete-orphan",
+    )
 
     @property
     def image_path(self) -> str:
