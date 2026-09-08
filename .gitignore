@@ -12,3 +12,6 @@ wheels/
 
 # Agent
 AGENTS.md
+
+# Misc Scripts
+populate_db.py
