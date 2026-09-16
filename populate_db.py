@@ -15,10 +15,9 @@ POPULATE_IMAGES_DIR = Path("populate_images")
 
 USERS = [
     {
-        "username": "CoreyMSchafer",
-        "email": "CoreyMSchafer@gmail.com",
+        "username": "AveryChen",
+        "email": "avery.chen@example.com",
         "password": "TestPassword1!",
-        "image": "corey.png",
     },
     {
         "username": "DefaultDude",
@@ -58,16 +57,16 @@ POSTS = [
         "content": "FastAPI has completely changed how I build APIs. The automatic documentation, type hints, and async support make development so much faster. Plus, the performance is incredible!",
     },
     {
-        "title": "Corey Schafer Has the Best YouTube Tutorials!",
-        "content": "This was written by a viewer and definitely not by me... I mean him. Totally not written by him, but by me... a real viewer. Seriously, check out his channel for amazing Python content.",
+        "title": "Learning FastAPI One Project at a Time",
+        "content": "Small projects are a great way to make new concepts stick. Build one endpoint, test it, then add the next piece when you understand how the first one works.",
     },
     {
         "title": "Async/Await Finally Clicked",
         "content": "I've been struggling with async programming for months, but FastAPI's approach finally made it click. Using 'async def' for endpoints and 'await' for database calls just makes sense.",
     },
     {
-        "title": "Schafer? I Barely Know Her!",
-        "content": "Is anyone actually reading these blog posts? Do they really need to say anything? I can keep going all day. At least AI can... Claude, keep going, please.",
+        "title": "Writing Better API Notes",
+        "content": "A short note about what an endpoint accepts, returns, and can fail with saves time for every future reader, including you.",
     },
     {
         "title": "Pydantic Validation is Magic",
@@ -115,7 +114,7 @@ POSTS = [
     },
     {
         "title": "Path Parameters vs Query Parameters",
-        "content": "Use path parameters for required resource identifiers (/users/123) and query parameters for optional filters (/posts?author=corey&limit=10). FastAPI handles both beautifully with automatic validation.",
+        "content": "Use path parameters for required resource identifiers (/users/123) and query parameters for optional filters (/posts?author=avery&limit=10). FastAPI handles both beautifully with automatic validation.",
     },
     {
         "title": "Error Handling Done Right",
